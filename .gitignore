@@ -1,0 +1,6 @@
+*.out
+*.log
+
+/build
+/log
+/bin
