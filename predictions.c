@@ -25,7 +25,7 @@ int make_prediction(const double *user, int *similar_users, int no_of_susers, do
 	return no_of_recommended_movies;
 }
 
-void test_predictions(const double *user, int *similar_users, int no_of_susers, double *similarity, constdouble *utility_matrix, double *predicted_ratings, int No_of_movies){
+void test_predictions(const double *user, int *similar_users, int no_of_susers, double *similarity, const double *utility_matrix, double *predicted_ratings, int No_of_movies){
 	int i=0, k=0;
 	for(i=0;i<No_of_movies;i++){
 		double sum1=0, sum2=0;
